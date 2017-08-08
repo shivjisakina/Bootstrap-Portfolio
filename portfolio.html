@@ -1,173 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-    <title>About Me</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>Bootstrap Basic Portfolio</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
 </head>
-<body background="whirlpool.png">
 
-<!-- this is the navbar/header-->
+<body>
+<!-- Start of navbar -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
 
-<div class="row">
-    <div class="col-lg-12">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar">Portfolio</span>
-                        <span class="icon-bar">Contact Me</span>
-                        <span class="icon-bar">About</span>
-                    </button>
-
-                    <a class="navbar-brand" href="#">Sakina Shivji</a>
-                </div>
-
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
-
-<div class="container">
-    <!--
-
-    <div class="row">
-        <div class="col-sm-4 col-sm-offset-3">
-            <div class="image">
-            <img src="technics-q-c-640-480-1.jpg" class="img-responsive">
-            </div>
-        </div>
-        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-            <div class="image">
-            <img src="technics-q-c-640-480-5.jpg" class="img-responsive">
-            </div>
-        </div>
-        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-            <div class="image">
-            <img src="technics-q-c-640-480-2.jpg" class="img-responsive">
-            </div>
-        </div>
-        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-            <div class="image">
-            <img src="technics-q-c-640-480-7.jpg" class="img-responsive">
-            </div>
-        </div>
-        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-            <img src="technics-q-c-640-480-9.jpg" class="img-responsive">
-        </div>
-        <div class="col-md-2 col-lg-2 col-sm-2 col-xs-2">
-            <img src="technics-q-c-640-480-9.jpg" class="img-responsive">
-        </div>
-        -->
-
-
-    </div>
-
-
-
-</div>
-<div class="container">
-
+        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="row">
-            <div class="col-md-6">
-                <h2>Portfolio</h2>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="col-xs-12 phone-nav">
+                    <a class="navbar-brand" href="#" id="logo">Sakina Shivji</a>
+                </div>
             </div>
-            <div class="col-md-6">
-                <div class="connectsection">
-                    <div class="row">
 
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6 col-md-3">
-                    <div class="bg-primary text-white">
-                        <a href="#" class="thumbnail"><img src="technics-q-c-640-480-1.jpg" height=200 width=250></a>
-                    </div>
-                    <div class="bg-primary text-white">
-                        <a href="#" class="thumbnail"><img src="technics-q-c-640-480-2.jpg" height=200 width=250></a>
-                    </div>
-                    <div class="bg-primary text-white">
-                        <a href="#" class="thumbnail"><img src="technics-q-c-640-480-5.jpg" height=200 width=250></a>
-                    </div>
-                    <div class="bg-primary text-white">
-                        <a href="#" class="thumbnail"><img src="technics-q-c-640-480-7.jpg" height=200 width=250></a>
-                    </div>
-                    <div class="bg-primary text-white">
-                        <a href="#" class="thumbnail"><img src="technics-q-c-640-480-9.jpg" height=200 width=250></a>
-                    </div>
-                </div>
-            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="index.html">About</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
         </div>
+    </div><!-- /.container-fluid -->
+</nav>
+<!-- End of navbar -->
+
+<!-- Start of content wrap -->
+<div class="wrap">
+    <div class="container">
+        <section class="row">
+            <div class="col-md-7">
+                <section id="portfolio-area">
+                    <h1 class="port-header">Portfolio</h1>
+                    <hr class="port-hr"/>
+                    <img class="port-imgs" src="assets/images/technics-q-c-640-480-1.jpg" alt="">
+                    <img class="port-imgs" src="assets/images/technics-q-c-640-480-2.jpg" alt="">
+                    <img class="port-imgs" src="assets/images/technics-q-c-640-480-5.jpg" alt="">
+                    <img class="port-imgs" src="assets/images/technics-q-c-640-480-7.jpg" alt="">
+                    <img class="port-imgs" src="assets/images/technics-q-c-640-480-9.jpg" alt="">
+                </section>
+            </div>
+            <div class="col-md-5">
+
+                <!-- Start of Connect With Me Area -->
+                <section id="connect-with-me-area">
+                    <div class="connect-with-me-content">
+                        <h1 class="connect-with-me-header">Connect With Me</h1>
+                        <hr />
+                        <div id="images">
+                            <img src="assets/images/github.png" alt="" class="connect-with-me-photo">
+                            <img src="assets/images/linkedin.png" alt="" class="connect-with-me-photo">
+                            <img src="assets/images/stackoverflow.png" alt="" class="connect-with-me-photo">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- End of the Connect With Me Area -->
+            </div>
+        </section>
     </div>
 </div>
+<!-- End of content wrap -->
 
-<div class="col-md-4 pull-right">
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">Connect With Me</h3>
-        </div>
-        <div class="panel-body">
-            <div class="thumbnail">
-                <img src="github.png" alt="github">
-                <div class="caption">
-                    <h3>Github</h3>
-                    <p><a href="https://github.com/shivjisakina" class="btn btn-primary" role="button">Follow Me</a></a></p>
-                </div>
-            </div>
-            <div class="thumbnail">
-                <img src="linkedin.png"  alt="linkedin">
-                <div class="caption">
-                    <h3>LinkedIn</h3>
-                    <p><a href="https://www.linkedin.com/in/sakina-shivji-11163a142/" class="btn btn-primary" role="button">Follow Me</a></a></p>
-                </div>
-            </div>
-            <div class="thumbnail">
-                <img src="stackoverflow.png" alt="stackoverflow">
-                <div class="caption">
-                    <h3>Stack Overflow</h3>
-                    <p><a href="http://stackoverflow.com/users/7954472/sakina-shivji" class="btn btn-primary" role="button">Follow Me</a></a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+<!-- Start of footer -->
+<footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+        &copy; Copyright Sakina Shivji
+    </p>
+</footer>
+<!-- End of footer -->
 
-<<div class="container">
-    <div class="row">
-        <div class="col-lg-12">
-            <nav class="navbar navbar-default navbar-fixed-bottom">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="#" text-align=center>&copy Sakina Shivji</a>
-                    </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-</div>
+<!-- jQuery CDN -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
-
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 </body>
+
+</html>
